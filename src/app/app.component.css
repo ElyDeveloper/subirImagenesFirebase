@@ -1,0 +1,46 @@
+.splashContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(173, 216, 230, 0.931);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imgSplash {
+    animation-name: comming;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    position: absolute;
+    height: 300px;
+    top: 0;
+    opacity: 0;
+}
+
+.divSplash {
+    width: 300px;
+    height: 150px;
+    background: radial-gradient(rgb(240, 117, 117), rgb(102, 102, 233), rgb(133, 241, 133));
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    right: 100%;
+}
+
+@keyframes comming {
+    0% {}
+    20% {}
+    40% {}
+    60% {}
+    80% {}
+    90% {}
+}
