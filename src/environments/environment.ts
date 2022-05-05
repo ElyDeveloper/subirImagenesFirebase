@@ -4,16 +4,15 @@
 
 export const environment = {
   production: false,
-  firebaseConfig : {
-    apiKey: "AIzaSyAxP0rUahxCXjtf7qBEadUXfr3WvWk1alU",
-    authDomain: "tp-ppsii.firebaseapp.com",
-    databaseURL: "https://tp-ppsii-default-rtdb.firebaseio.com",
-    projectId: "tp-ppsii",
-    storageBucket: "tp-ppsii.appspot.com",
-    messagingSenderId: "756468356457",
-    appId: "1:756468356457:web:c12be35b2de3dfff1619f8",
-    measurementId: "G-3827X50ZTP"
-  }
+  firebaseConfig: {
+    apiKey: 'AIzaSyCkbFOp1F4K-XjLsQnKCBsXOdR_yRwAY00',
+    authDomain: 'tester-da6ef.firebaseapp.com',
+    databaseURL: 'https://tester-da6ef-default-rtdb.firebaseio.com',
+    projectId: 'tester-da6ef',
+    storageBucket: 'tester-da6ef.appspot.com',
+    messagingSenderId: '100908363079',
+    appId: '1:100908363079:web:1096cea066580475553062',
+  },
 };
 
 /*
